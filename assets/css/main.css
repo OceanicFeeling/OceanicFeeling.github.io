@@ -2984,6 +2984,19 @@ input, select, textarea {
 
 			}
 
+			.wrapper.style2 {
+				background-color: #2e3842;
+			}
+
+			.wrapper.style3 {
+				background-color: #505393;
+				color: #d3d4e4;
+			}
+
+			.wrapper.style4 {
+				background-color: transparent;
+			}
+
 		.andrew.style2 {
 			/* background-color: #2e3842; */
 			/* background-image: url("../../images/OFpic01.jpg"); */
