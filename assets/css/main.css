@@ -2819,10 +2819,10 @@ input, select, textarea {
 		.wrapper.style1 {
 			/* background-color: #3d668d; */
 			color: #c8ece9;
-			background-image: -moz-linear-gradient(top, rgba(0,0,0,0.1), rgba(116, 67, 67, 0.1)), url("../../images/PaperBanner.jpg");
-			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/PaperBanner.jpg");
-			background-image: -ms-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/PaperBanner.jpg");
-			background-image: linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/PaperBanner.jpg");
+			background-image: -moz-linear-gradient(top, rgba(0,0,0,0.1), rgba(116, 67, 67, 0.1)), url("../../images/PaperBanner1.jpg");
+			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/PaperBanner1.jpg");
+			background-image: -ms-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/PaperBanner1.jpg");
+			background-image: linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/PaperBanner1.jpg");
 		}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
