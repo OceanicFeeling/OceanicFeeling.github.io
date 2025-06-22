@@ -2823,6 +2823,10 @@ input, select, textarea {
 			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/PaperBanner1.jpg");
 			background-image: -ms-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/PaperBanner1.jpg");
 			background-image: linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/PaperBanner1.jpg");
+			background-attachment: fixed;
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-size: cover;
 		}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
