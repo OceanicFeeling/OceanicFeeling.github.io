@@ -2089,6 +2089,11 @@ input, select, textarea {
 			color: #76ddff;
 		}
 
+
+		.mfacing {
+			width: 32%;
+		}
+
 /* Image */
 
 	.image {
