@@ -49,14 +49,87 @@
 							<div class="inner">
 
 								<h3>Hi, my name is Marta</h3>
-								<p>My own journey with acupuncture started over 8 years ago, when, still new to London, I started experiencing panic attacks, irregular eating patterns and migraines. I looked for help through therapists, but nothing seemed to help the way I felt I needed - until one day I heard of Five Elements acupuncture and thought to myself - “alright then, might as well try”! What I experienced was the most profound, lasting shift within me that I ever could have hoped for. The panic attacks stopped, the migraines came to an end, and every part of my life started feeling more grounded and more in balance. 
-</p>
+								<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
 
-								<p>Now, after completing my training under renowned fertility-expert and Acupuncture Master Gerad Kite, I am committed to supporting people in their life journeys through the acknowledgment that we are spiritual beings in physical form – a manifestation of Nature. As such, I work with the needles to understand what is the root cause of my patients’ imbalance, to bring them back in alignment with themselves, their purpose, and their innate potential at a full life-experience. </p>
+.active, .accordion:hover {
+  background-color: #ccc;
+}
 
-								<p> I am a registered member of the British Acupuncture Federation and I adhere to the highest professional and ethical standards, ensuring safe, effective, and patient-centered care.
- </p>
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
 
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+</style>
+</head>
+<body>
+
+<h2>Accordion with symbols</h2>
+<p>In this example we have added a "plus" sign to each button. When the user clicks on the button, the "plus" sign is replaced with a "minus" sign.</p>
+<button class="accordion">Section 1</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">Section 2</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">Section 3</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+</body>
+</html>
 
 							</div>
 						</section>
@@ -89,3 +162,4 @@
 
 	</body>
 </html>
+
